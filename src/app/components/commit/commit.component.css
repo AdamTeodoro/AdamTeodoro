@@ -1,0 +1,33 @@
+
+.commit {
+  width: 100% !important;
+
+  padding: 5%;
+
+  text-align: center;
+}
+
+.commit textarea {
+  width: 100%;
+  height: 150px;
+
+  border: dashed 2px #ddd;
+
+  color: #333;
+
+  font-size: 13pt;
+
+  padding: 5px;
+
+  resize: none;
+}
+
+
+.commit textarea:hover {
+  border: dashed 2px #666 !important;
+}
+
+.commit .btn-light {
+  border: 0.009px #999 solid;
+  background: #fff;
+}

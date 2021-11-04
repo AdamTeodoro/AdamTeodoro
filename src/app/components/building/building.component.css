@@ -1,0 +1,15 @@
+
+.building img {
+  max-width: 100% !important;
+
+  width: auto;
+  height: auto;
+
+  image-rendering: pixelated !important;
+}
+
+.building h1 {
+  font-size: 30pt;
+
+  line-height: 1.2;
+}

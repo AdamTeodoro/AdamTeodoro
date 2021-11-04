@@ -1,0 +1,54 @@
+.menu {
+  position: fixed !important;
+
+  height: 100%;
+  width: 30%;
+
+
+  color: #222 !important;
+
+  border-right: solid 1px #ccc;
+
+  padding: 5px;
+
+  box-shadow: 2px 2px 2px #ddd;
+
+  overflow-y: scroll;
+}
+
+.menu .item {
+  padding: 5%;
+
+}
+
+.menu .img {
+  min-height: 120px;
+  min-width: 120px;
+}
+
+.img img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu::-webkit-scrollbar {
+  width: 12px !important;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: #222 !important;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: #222 !important;
+  border: 2px solid #999 !important;
+}
+
+.menu {
+  scrollbar-width: thin;
+  scrollbar-color: #222 #999;
+}
+
+.menu .bi {
+  margin-left: 1%;
+}
