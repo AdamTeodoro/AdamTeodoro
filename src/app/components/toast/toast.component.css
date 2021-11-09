@@ -1,0 +1,29 @@
+
+.toast-element {
+  bottom: 5% !important;
+  right: 5% !important;
+
+  padding: 2%;
+
+  border-radius: 5px;
+
+  position: fixed !important;
+
+  z-index: 10 !important;
+
+  font-weight: bold;
+  font-size: 12pt;
+
+}
+
+.success {
+  background: rgb(124, 255, 211);
+
+  color: #333;
+}
+
+.danger {
+  background-color: rgb(255, 29, 29);
+
+  color: rgb(255, 255, 255);
+}

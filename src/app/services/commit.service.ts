@@ -9,14 +9,10 @@ export class CommitService {
 
   constructor(private firestore: Firestore) { }
 
-  async createCommit(commit: string) {
-    try {
-      await addDoc(collection(this.firestore, "Commit"), {
-        timestamp: serverTimestamp(),
-        commit: commit
-      });
-    } catch(e) {
-      console.log(e);
-    }
+  createCommit(commit: string) {
+    return addDoc(collection(this.firestore, "Commit"), {
+      timestamp: serverTimestamp(),
+      commit: commit
+    });
   }
 }

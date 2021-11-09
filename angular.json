@@ -107,7 +107,7 @@
             "ssr": false,
             "browserTarget": "AdamTeodoro:build:production",
             "firebaseProject": "adamteodoro-13498",
-            "firebaseHostingSite": "adamteodoro-13498"
+            "firebaseHostingSite": "adamteodoro"
           }
         }
       }

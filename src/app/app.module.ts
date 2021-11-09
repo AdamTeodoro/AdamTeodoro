@@ -17,6 +17,7 @@ import { CommitComponent } from './components/commit/commit.component';
 import { environment } from 'src/environments/environment.prod';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+import { ToastComponent } from './components/toast/toast.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { provideFirestore, getFirestore } from '@angular/fire/firestore';
     MainComponent,
     HomeComponent,
     BuildingComponent,
-    CommitComponent
+    CommitComponent,
+    ToastComponent
   ],
   imports: [
     BrowserModule,
