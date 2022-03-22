@@ -24,7 +24,9 @@
 
   margin: 1% !important;
 
-  border: 1px solid rgb(231, 231, 231);
+  background: rgb(255, 245, 245);
+
+  box-shadow:  0 0 1em rgb(211, 211, 211);
 }
 
 .main-card h1 {
