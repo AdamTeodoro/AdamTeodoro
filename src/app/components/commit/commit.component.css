@@ -29,5 +29,8 @@
 
 .commit .btn-light {
   border: 0.009px #999 solid;
+
   background: #fff;
+
+  border-radius: 0px;
 }

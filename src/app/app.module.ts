@@ -19,6 +19,8 @@ import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { ToastComponent } from './components/toast/toast.component';
 
+import { ProjectsComponent } from './components/projects/projects.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { ToastComponent } from './components/toast/toast.component';
     HomeComponent,
     BuildingComponent,
     CommitComponent,
-    ToastComponent
+    ToastComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

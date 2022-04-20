@@ -1,0 +1,64 @@
+
+<div class="projects">
+  <h1>REPOSITÓRIOS E PROJETOS WEB</h1>
+  <h3>Vou orientar você em meu github mostrando alguns projetos desenvolvidos por mim:</h3>
+  <div class="row">
+    <div class="project col-4"
+      [ngClass]="{ bold:idProjectSelected === 'Click RH'}"
+      (click)="setIdProject('Click RH')"
+    >
+      <p>
+        Clickrh
+      </p>
+    </div>
+    <div class="project col-4"
+      [ngClass]="{ bold:idProjectSelected === 'Hup shop'}"
+      (click)="setIdProject('Hup shop')"
+    >
+      <p>
+        Hup Shop
+      </p>
+    </div>
+    <div class="project col-4"
+      [ngClass]="{ bold:idProjectSelected === 'Jogo da frutinha'}"
+      (click)="setIdProject('Jogo da frutinha')"
+    >
+      <p>
+        Jogo da frutinha
+      </p>
+    </div>
+    <div class="project col-6"
+      [ngClass]="{ bold:idProjectSelected === 'SOLID'}"
+      (click)="setIdProject('SOLID')"
+    >
+      <p>
+        SOLID
+      </p>
+    </div>
+    <div class="project col-6"
+      [ngClass]="{ bold:idProjectSelected === 'Nokia tijolão'}"
+      (click)="setIdProject('Nokia tijolão')"
+    >
+      <p>
+        Nokia tijolão
+      </p>
+    </div>
+    <div class="project col-6"
+    [ngClass]="{ bold:idProjectSelected === 'Laravel CRUD'}"
+    (click)="setIdProject('Laravel CRUD')"
+  >
+    <p>
+      Laravel CRUD
+    </p>
+  </div>
+  </div>
+
+  <div class="description" *ngIf="idProjectSelected">
+    <h2>{{getProjectDescriptionByProjectId().idProject}}</h2>
+    {{getProjectDescriptionByProjectId().description}}
+    <br>
+    <button class="btn-open-new-window" (click)="openInNewTab()">
+      Abrir em nova aba
+    </button>
+  </div>
+</div>

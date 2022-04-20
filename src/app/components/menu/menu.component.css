@@ -4,16 +4,16 @@
   height: 100%;
   width: 30%;
 
-
   color: #222 !important;
 
   border-right: solid 1px #ccc;
 
   padding: 5px;
 
-  box-shadow: 2px 2px 2px #ddd;
+  box-shadow:  0 0 1em rgb(139, 135, 135);
 
   overflow-y: scroll;
+
 }
 
 .menu .item {

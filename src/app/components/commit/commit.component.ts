@@ -49,6 +49,5 @@ export class CommitComponent implements OnInit {
       .catch(() => this.toastService.danger('😞 Falha ao enviar comentário!'))
       .finally(() => this.fGCommit.reset());
     }
-
   }
 }

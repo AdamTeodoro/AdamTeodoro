@@ -1,0 +1,56 @@
+h1 {
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+
+.projects {
+  height: 30%;
+
+  width: 98%;
+
+  margin-left: 1%;
+
+  padding: 5%;
+
+  background: rgb(255, 245, 245);
+
+  box-shadow:  0 0 1em rgb(211, 211, 211);
+}
+
+.project {
+  cursor: pointer;
+
+  padding: 2%;
+}
+
+.project p {
+  cursor: pointer;
+
+  color: tomato;
+
+  transition: all ease 500ms;
+
+  text-decoration: underline;
+}
+
+.project p:hover {
+  font-weight: bold !important;
+}
+
+.description {
+  padding: 2%;
+
+  text-align: justify;
+}
+
+.btn-open-new-window {
+  margin-top: 2%;
+
+  padding: 2%;
+
+  background-color: #fff;
+
+  border: solid 1px #ddd;
+}
