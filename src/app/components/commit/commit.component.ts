@@ -25,15 +25,22 @@ export class CommitComponent implements OnInit {
           Validators.max(500)
         ])
       ]
-    })
+    });
   }
 
   ngOnInit(): void {
   }
 
+  isValidCommit() {
+    return this.fGCommit.valid;
+  }
+
   async send() {
-    if (this.fGCommit.valid) {
-      await this.commitService.createCommit(this.fGCommit.controls.commit.value);
+    if (this.isValidCommit()) {
+      await this.commitService.createCommit(this.fGCommit.controls.commit.value)
+      .then(() => {
+        this.fGCommit.reset();
+      })
     }
   }
 }

@@ -4,6 +4,6 @@
   <h1>COMENTÁRIOS</h1>
   <form [formGroup]="fGCommit">
     <textarea formControlName="commit" maxlength="500"></textarea>
-    <button class="btn btn-light" (click)="send()">Enviar</button>
+    <button [disabled]="!isValidCommit()" class="btn btn-light" (click)="send()">Enviar</button>
   </form>
 </div>
