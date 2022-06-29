@@ -11,18 +11,6 @@ export class ProjectsComponent implements OnInit {
 
   projectDescriptions: Array<{ idProject: string, description: string, link: string}> = [
     {
-      idProject: 'Click RH',
-      description: `Projeto desenvolvido para clickrh,
-      o rh recebia currículos em seu e-mail e isso ocasionava no
-      armazenamento de currículos repetidos, além de uma desorganização
-      dos dados dos candidatos, esse projeto resolveu os 2 problemas
-      forçando o candidato ter apenas um currículo por conta criada e também
-      permite ao recrutador uma melhor organização dos candidatos gerando pools
-      de talentos em ordem e resumo dos candidatos, além de divulgar informações
-      na página, o site também recebe visitas com tráfego orgânico.`,
-      link: 'https://clickrh.web.app'
-    },
-    {
       idProject: 'Hup shop',
       description: `Comercio eletrônico completo responsivo e desenvolvido, com SEO otimizado, feito para receber clientes do Brasil inteiro.`,
       link: 'https://hup-shop.com'
@@ -50,6 +38,11 @@ export class ProjectsComponent implements OnInit {
       idProject: 'Laravel CRUD',
       description: 'Fiz um CRUD com laravel para ter conhecimentos sobre a tecnologia.',
       link: 'https://github.com/AdamTeodoro/CRUD-LARAVEL'
+    },
+    {
+      idProject: 'swagger',
+      description: "Para incrementar e exercitar meus conhecimentos sobre APIs, criei a documentação de uma api web com swagger.",
+      link: "https://github.com/AdamTeodoro/usando-swagger"
     }
   ];
 

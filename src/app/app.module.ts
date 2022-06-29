@@ -20,6 +20,9 @@ import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { ToastComponent } from './components/toast/toast.component';
 
 import { ProjectsComponent } from './components/projects/projects.component';
+import { MainCardComponent } from './components/main-card/main-card.component';
+import { LearnCardComponent } from './components/learn-card/learn-card.component';
+import { CommitListComponent } from './components/commit-list/commit-list.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
     BuildingComponent,
     CommitComponent,
     ToastComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    MainCardComponent,
+    LearnCardComponent,
+    CommitListComponent
   ],
   imports: [
     BrowserModule,

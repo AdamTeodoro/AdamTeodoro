@@ -57,3 +57,19 @@ textarea:focus, input:focus, select:focus {
   border: 0 none;
   outline: 0;
 }
+
+.my-card {
+  border-radius: 5px;
+
+  padding: 4% !important;
+
+  margin: 1% !important;
+
+  background: rgb(255, 245, 245);
+
+  box-shadow:  0 0 1em rgb(211, 211, 211);
+}
+
+.my-card h1 {
+  margin-bottom: 5%;
+}

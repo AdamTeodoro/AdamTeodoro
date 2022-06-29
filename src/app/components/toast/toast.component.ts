@@ -30,7 +30,6 @@ export class ToastComponent implements OnInit, OnDestroy {
     .subscribe((toast) => {
       this._toast = toast;
       this.closeToast();
-      console.log(toast);
     });
 
   }

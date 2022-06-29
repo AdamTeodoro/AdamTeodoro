@@ -1,0 +1,14 @@
+
+<div class="commit-list">
+
+
+
+  <div *ngFor="let commit of commitList" class="commit msgs">
+    <div class="base"></div>
+    <div class="balao">
+      <h4>{{commit.commit}}</h4>
+      <small>{{commit.createdAt | date: 'dd/MM/yyyy HH:mm'}}</small>
+    </div>
+  </div>
+
+</div>

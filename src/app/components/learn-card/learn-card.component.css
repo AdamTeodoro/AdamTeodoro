@@ -1,0 +1,28 @@
+
+.title {
+  font-weight: bold;
+
+  font-size: 24pt;
+}
+
+.tecnologies {
+  border-top: 3px #fff solid;
+}
+
+.t-item {
+  cursor: pointer;
+
+  padding: 2%;
+
+  text-align: center;
+}
+
+.t-item:hover {
+
+  transition: all 500ms ease;
+
+  color: #fff;
+  background: #000;
+
+  text-decoration: underline;
+}
