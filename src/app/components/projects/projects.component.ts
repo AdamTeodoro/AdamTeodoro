@@ -43,6 +43,11 @@ export class ProjectsComponent implements OnInit {
       idProject: 'swagger',
       description: "Para incrementar e exercitar meus conhecimentos sobre APIs, criei a documentação de uma api web com swagger.",
       link: "https://github.com/AdamTeodoro/usando-swagger"
+    },
+    {
+      idProject: 'Slim Coffee Theme',
+      description: "Criei um tema para para visual studio code personalizado.",
+      link: "https://github.com/AdamTeodoro/Slim-Coffee-Theme"
     }
   ];
 
