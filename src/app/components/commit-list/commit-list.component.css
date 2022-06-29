@@ -1,4 +1,8 @@
 
+.commit-list {
+  padding-bottom: 5%;
+
+}
 
 .balao {
   max-width: 80% !important;
@@ -13,9 +17,11 @@
 
   padding: 2%;
 
-  margin-top: -10%;
+  margin-top: -5%;
   margin-bottom: 1%;
-  margin-left: 4.5%;
+  margin-left: 4%;
+
+  border-radius: 2%;
 }
 
 small {
