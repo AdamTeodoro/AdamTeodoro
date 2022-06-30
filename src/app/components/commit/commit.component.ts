@@ -49,8 +49,9 @@ export class CommitComponent implements OnInit {
       const commit = this.fGCommit.controls.commit.value;
       await this.commitService.createCommit(commit)
       .then((data) => {
-        //update template
+        //update template data
         this.commitListComponentService.addCommit({
+          id: data.id,
           commit,
           createdAt: Date.now(),
           timestamp: null
