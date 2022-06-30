@@ -64,7 +64,6 @@ export class ProjectsComponent implements OnInit {
 
   openInNewTab() {
     const projectDescription = this.getProjectDescriptionByProjectId();
-    console.log(projectDescription.link);
     window.open(projectDescription.link, '_blank');
   }
 
