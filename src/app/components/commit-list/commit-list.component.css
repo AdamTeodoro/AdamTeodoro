@@ -1,7 +1,7 @@
 
 .commit-list {
   padding-bottom: 5%;
-
+  padding-top: 15%;
 }
 
 .balao {
@@ -41,4 +41,30 @@ small {
   border-right: 20px solid #ddd;
 
   margin-left: 2% !important;
+}
+
+@media (max-width: 500px) {
+  .base {
+    margin-bottom: -20% !important;
+  }
+
+  .balao {
+    max-width: 80% !important;
+
+    width: auto;
+    height: auto !important;
+
+    color: #333;
+    font-size: 13pt;
+
+    border: 0.5px solid #ccc;
+
+    padding: 2%;
+
+    margin-top: -10%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+
+    border-radius: 2%;
+  }
 }

@@ -14,7 +14,6 @@ export class AppComponent {
     (async () => {
       const date = new Date();
       const dateString = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
-      //isso é segredo, ok ?
       const docRef = doc(collection(this.firestore, "Access"), 'idAccess');
       await setDoc(docRef, {
         access: increment(1),

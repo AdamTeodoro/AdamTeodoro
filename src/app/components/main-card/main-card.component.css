@@ -10,7 +10,9 @@
 }
 
 .my-card h1 {
-  margin-top: 5% !important;
+  margin-top: 1% !important;
+
+  padding-top: 10%;
 }
 
 .gray {

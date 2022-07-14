@@ -47,7 +47,7 @@ export class ProjectsComponent implements OnInit {
     {
       idProject: 'Slim Coffee Theme',
       description: "Criei um tema para para visual studio code personalizado.",
-      link: "https://github.com/AdamTeodoro/Slim-Coffee-Theme"
+      link: "https://marketplace.visualstudio.com/items?itemName=slim-coffee-theme.slim-coffee"
     }
   ];
 

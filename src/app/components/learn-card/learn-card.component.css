@@ -26,3 +26,19 @@
 
   text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+
+  .t-item {
+    cursor: pointer;
+
+    min-width: 30%;
+
+    padding: auto;
+  }
+
+  .t-item h2 {
+    font-size: 9pt;
+  }
+
+}

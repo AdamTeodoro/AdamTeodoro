@@ -8,17 +8,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { LearnComponent } from './pages/learn/learn.component';
-import { MainComponent } from './components/main/main.component';
 import { HomeComponent } from './pages/home/home.component';
-import { BuildingComponent } from './components/building/building.component';
 import { CommitComponent } from './components/commit/commit.component';
 
-
 import { environment } from 'src/environments/environment.prod';
+
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
-import { ToastComponent } from './components/toast/toast.component';
 
+import { ToastComponent } from './components/toast/toast.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
 import { LearnCardComponent } from './components/learn-card/learn-card.component';
@@ -29,15 +27,13 @@ import { CommitListComponent } from './components/commit-list/commit-list.compon
     AppComponent,
     MenuComponent,
     LearnComponent,
-    MainComponent,
     HomeComponent,
-    BuildingComponent,
     CommitComponent,
     ToastComponent,
     ProjectsComponent,
     MainCardComponent,
     LearnCardComponent,
-    CommitListComponent
+    CommitListComponent,
   ],
   imports: [
     BrowserModule,

@@ -73,3 +73,36 @@ textarea:focus, input:focus, select:focus {
 .my-card h1 {
   margin-bottom: 5%;
 }
+
+.learn-content {
+  width: 100%;
+
+  padding: 5%;
+}
+
+.learn-content a {
+  text-decoration: none;
+
+  color: tomato;
+
+  font-size: 12pt;
+}
+
+.learn-content h1 {
+  font-size: 24pt;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.learn-content p {
+  font-size: 12pt;
+}
+
+@media (max-width: 500px) {
+  .my-card {
+    margin-bottom: 10% !important;
+
+    padding-top: 15% !important;
+  }
+}
+
