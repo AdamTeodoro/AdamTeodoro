@@ -26,12 +26,14 @@ export class ProjectsComponent implements OnInit {
       link: 'https://github.com/AdamTeodoro/Typescript---SOLID'
     },
     {
-      idProject: 'Nokia tijolão',
+      idProject: 'Simulador de teclado Nokia',
       description: `Na verdade, esse não é bem um projeto, mas sim um desafio proposto,
-       no qual decidi resolver utilizando javascript puro, tanto no lado do cliente quanto
-       no lado do servidor, nesse desafio eu deveria simular um teclado de celular antigo e
-       esse seria um ótimo treino e exercício de lógica e algoritmo. Para resolver esse desafio foi necessário criar uma aplicação front-end com html, css e js, onde pegaria os caracteres digitados pelo usuário e
-       enviaria para o back-end, então decodificar e devolver para o front-end.`,
+      no qual decidi resolver utilizando javascript puro no front-end, e typescript no back-end,
+      nesse desafio eu deveria simular um teclado de celular antigo e esse seria um ótimo treino
+      e exercício de lógica e algoritmo. Para resolver esse desafio foi necessário criar uma
+      aplicação front-end com html, css e js, onde pegaria os números digitados pelo usuário
+      transformaria em texto enviaria para o back-end, para então decodificar e devolver
+      para o front-end um texto codificado.`,
       link: 'https://github.com/AdamTeodoro/SIMULANDO-TECLADO-DO-NOKIA'
     },
     {
@@ -67,7 +69,6 @@ export class ProjectsComponent implements OnInit {
     window.open(projectDescription.link, '_blank');
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }

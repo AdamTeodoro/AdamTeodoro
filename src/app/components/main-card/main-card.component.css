@@ -9,13 +9,47 @@
   transition: all 300ms ease;
 }
 
-.my-card h1 {
+#my-card h1 {
   margin-top: 1% !important;
-
-  padding-top: 10%;
 }
 
 .gray {
   background: rgb(248, 248, 248);
   border: none;
+}
+
+.btn-light {
+  border: 1px solid #ddd;
+
+  cursor: pointer;
+}
+
+.btn-light:hover {
+  border: 1px solid #999;
+
+  cursor: pointer;
+}
+
+a {
+  color: #222;
+
+  cursor: pointer;
+
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: tomato !important;
+}
+
+.bi-clipboard {
+  cursor: pointer;
+
+  color: rgb(255, 73, 73);
+
+  background-color: #eee;
+}
+
+.bi-clipboard:hover {
+  color: rgb(143, 142, 142);
 }
