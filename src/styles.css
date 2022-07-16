@@ -63,9 +63,8 @@ textarea:focus, input:focus, select:focus {
 
 #main {
   margin-bottom: 2%;
-
-  margin-left: 10%;
-  margin-right: -10%;
+  margin-left: 100%;
+  margin-right: -100%;
 
   position: relative;
 
@@ -74,8 +73,8 @@ textarea:focus, input:focus, select:focus {
 
 #projects {
   margin-top: 2%;
-  margin-left: 10%;
-  margin-right: -10%;
+  margin-left: 100%;
+  margin-right: -100%;
 
   position: relative;
 
@@ -85,8 +84,8 @@ textarea:focus, input:focus, select:focus {
 #learn {
 
   margin-top: 2%;
-  margin-left: 10%;
-  margin-right: -10%;
+  margin-left: 100%;
+  margin-right: -100%;
 
   position: relative;
 
@@ -102,8 +101,6 @@ textarea:focus, input:focus, select:focus {
   background: rgb(255, 245, 245);
 
   box-shadow:  0 0 1em rgb(211, 211, 211);
-
-  transition: all 500ms ease !important;
 
 }
 

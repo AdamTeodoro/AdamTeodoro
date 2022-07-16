@@ -42,7 +42,7 @@ a:hover {
   color: tomato !important;
 }
 
-.bi-clipboard {
+app-clipboard {
   cursor: pointer;
 
   color: rgb(255, 73, 73);
@@ -50,6 +50,6 @@ a:hover {
   background-color: #eee;
 }
 
-.bi-clipboard:hover {
+app-clipboard:hover {
   color: rgb(143, 142, 142);
 }

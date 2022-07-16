@@ -21,6 +21,11 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
 import { LearnCardComponent } from './components/learn-card/learn-card.component';
 import { CommitListComponent } from './components/commit-list/commit-list.component';
+import { MortarboardComponent } from './icons/mortarboard/mortarboard.component';
+import { ClipboardComponent } from './icons/clipboard/clipboard.component';
+import { XpComponent } from './icons/xp/xp.component';
+import { LinkedinComponent } from './icons/linkedin/linkedin.component';
+import { GithubComponent } from './icons/github/github.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +39,11 @@ import { CommitListComponent } from './components/commit-list/commit-list.compon
     MainCardComponent,
     LearnCardComponent,
     CommitListComponent,
+    MortarboardComponent,
+    ClipboardComponent,
+    XpComponent,
+    LinkedinComponent,
+    GithubComponent,
   ],
   imports: [
     BrowserModule,

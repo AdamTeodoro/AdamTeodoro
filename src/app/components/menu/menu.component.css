@@ -61,12 +61,11 @@
   border: 2px solid #999 !important;
 }
 
-.menu .bi {
+.menu app-linkedin, app-github {
   margin-left: 1%;
 }
 
 @media (max-width: 500px) {
-
 
   #hamburger {
     border-top: 2px solid;
