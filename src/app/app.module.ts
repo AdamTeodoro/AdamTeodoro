@@ -10,12 +10,6 @@ import { MenuComponent } from './components/menu/menu.component';
 import { LearnComponent } from './pages/learn/learn.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CommitComponent } from './components/commit/commit.component';
-
-import { environment } from 'src/environments/environment.prod';
-
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { provideFirestore, getFirestore } from '@angular/fire/firestore';
-
 import { ToastComponent } from './components/toast/toast.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
@@ -26,6 +20,12 @@ import { ClipboardComponent } from './icons/clipboard/clipboard.component';
 import { XpComponent } from './icons/xp/xp.component';
 import { LinkedinComponent } from './icons/linkedin/linkedin.component';
 import { GithubComponent } from './icons/github/github.component';
+
+import { environment } from 'src/environments/environment.prod';
+
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+
 
 @NgModule({
   declarations: [
