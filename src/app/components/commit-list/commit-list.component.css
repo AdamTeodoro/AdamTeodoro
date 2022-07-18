@@ -43,7 +43,7 @@ small {
   margin-left: 2% !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .base {
     margin-bottom: -20% !important;
   }

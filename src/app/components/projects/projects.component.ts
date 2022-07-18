@@ -21,11 +21,6 @@ export class ProjectsComponent implements OnInit {
       link: 'https://github.com/AdamTeodoro/Jogo-da-frutinha.github.io'
     },
     {
-      idProject: 'SOLID',
-      description: `Repositório de código sobre aplicação dos principios solid com typescript, na construção de produtos e descrição deles.`,
-      link: 'https://github.com/AdamTeodoro/Typescript---SOLID'
-    },
-    {
       idProject: 'Simulador de teclado Nokia',
       description: `Na verdade, esse não é bem um projeto, mas sim um desafio proposto,
       no qual decidi resolver utilizando javascript puro no front-end, e typescript no back-end,

@@ -35,7 +35,7 @@
   border-radius: 0px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 
   .commit {
     padding-top: 15%;
