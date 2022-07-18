@@ -24,13 +24,4 @@ export class MainCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  copy() {
-    this.toast.success("Copiado com sucesso!");
-    this.clipboard.copy(this.name);
-  }
-
-  openNewTab() {
-    window.open(this.profileLink, '_blank')
-  }
-
 }
