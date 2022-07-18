@@ -63,8 +63,8 @@ textarea:focus, input:focus, select:focus {
 
 #main {
   margin-bottom: 2%;
-  margin-left: 100%;
-  margin-right: -100%;
+  margin-left: 10%;
+  margin-right: -10%;
 
   position: relative;
 
@@ -73,8 +73,8 @@ textarea:focus, input:focus, select:focus {
 
 #projects {
   margin-top: 2%;
-  margin-left: 100%;
-  margin-right: -100%;
+  margin-left: 10%;
+  margin-right: -10%;
 
   position: relative;
 
@@ -82,10 +82,9 @@ textarea:focus, input:focus, select:focus {
 }
 
 #learn {
-
   margin-top: 2%;
-  margin-left: 100%;
-  margin-right: -100%;
+  margin-left: 10%;
+  margin-right: -10%;
 
   position: relative;
 
@@ -104,7 +103,7 @@ textarea:focus, input:focus, select:focus {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .my-card {
     margin-bottom: 10% !important;
 
