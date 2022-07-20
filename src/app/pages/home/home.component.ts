@@ -26,14 +26,13 @@ export class HomeComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event']) onScroll(event: any) {
     try {
+      const scrollBarTopDistance = document.documentElement.scrollTop;
       const projects = this.getElement("projects");
       const learn = this.getElement("learn");
-      const main = this.getElement("main");
-      const scrollBarTopDistance = document.documentElement.scrollTop;
-      const mainTopDistance = main.offsetTop;
       const projectsTopDistance = projects.offsetTop;
       const learnTopDistance = learn.offsetTop;
       if (scrollBarTopDistance <= 0) {
+        const main = this.getElement("main");
         this.slideElement(main);
       }
       if (scrollBarTopDistance >= projectsTopDistance - (projectsTopDistance / 3)) {
