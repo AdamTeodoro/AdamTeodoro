@@ -11,11 +11,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     window.scroll({ top: 0 });
-
-    setTimeout(() => {
-      const main = this.getElement("main");
-      this.slideElement(main);
-    }, 500);
+    const main = this.getElement("main");
+    this.slideElement(main);
   }
 
   getElement(name: string) {
@@ -31,9 +28,14 @@ export class HomeComponent implements OnInit {
     try {
       const projects = this.getElement("projects");
       const learn = this.getElement("learn");
+      const main = this.getElement("main");
       const scrollBarTopDistance = document.documentElement.scrollTop;
+      const mainTopDistance = main.offsetTop;
       const projectsTopDistance = projects.offsetTop;
       const learnTopDistance = learn.offsetTop;
+      if (scrollBarTopDistance <= 0) {
+        this.slideElement(main);
+      }
       if (scrollBarTopDistance >= projectsTopDistance - (projectsTopDistance / 3)) {
         this.slideElement(projects);
       }
